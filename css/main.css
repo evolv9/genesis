@@ -1,0 +1,91 @@
+/*||????||????||????||????||????||???||
+*	
+*	genesis CSS
+*	version 0.1
+*	by Timothy Evans - evolv9		.ılı|̲̅̅●̲̅̅|̲̅̅=̲̅̅|̲̅̅●̲̅̅|ılı.
+*	http://192.168.1.129				section9
+*   
+*	Cross-browser styling, Foundation/HTML5 Boilerplate + Reset/Normalize
+*
+||????||????||????||????||????||????*/
+
+/* == Global Styles == */
+
+/* Fonts */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+@font-face {
+	font-family: 'fontawesome';
+	src:url('../fonts/fontawesome.eot');
+	src:url('../fonts/fontawesome.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/fontawesome.svg#fontawesome') format('svg'),
+		url('../fonts/fontawesome.woff') format('woff'),
+		url('../fonts/fontawesome.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Reset */
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+html {
+	display: table;
+	margin: auto;
+}
+
+html, body {
+	font-size: 100%;	
+	/* padding: 0; margin: 0;*/
+}
+
+body {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	color: #20aa93;
+	background-color: #000;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+a {
+	color: #75715e;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #e6db74;
+}
+
+#intro {
+	text-align: center;
+}
+
+#intro h1 {
+	color: #a6e22e;
+	margin-top: 0;
+}
+
+#phases {
+	margin-top: 25px;
+	margin-bottom: -50px;
+}
+
+#soulsearch {
+	text-align: center;
+}
