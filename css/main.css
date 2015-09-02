@@ -90,6 +90,11 @@ a:hover {
 	margin-bottom: -50px;
 }
 
+#logo {
+	margin-top: 20px;
+	z-index: 1;
+}
+
 #survival {
 	margin-bottom: 25px;
 }
